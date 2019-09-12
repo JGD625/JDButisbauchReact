@@ -1,0 +1,39 @@
+.home-container {
+    position: fixed;
+    top: 200px;
+    color: #d7d5d9;
+    font-size: 2.3rem;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 50px;
+    margin-right: auto;
+    max-width: 1200px;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+.teal {
+    color: #40af93;
+}
+
+.teal a {
+    text-decoration: none;
+    color: #40af93;
+}
+
+.teal a:visited {
+    text-decoration: none;
+    color: #40af93;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .home-container {
+        position: fixed;
+        top: 200px;
+        font-size: 1.5rem;
+        margin-left: 50px;
+    }
+
+  }

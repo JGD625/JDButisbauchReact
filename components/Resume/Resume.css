@@ -1,0 +1,107 @@
+.resume-container {
+    height: 100%;
+    background: #40af93;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 150px;
+}
+
+.resume-inner-wrapper {
+    height: 70%;
+    position: fixed;
+    top: 230px;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    overflow-y: scroll;
+}
+
+.section3-greeting {
+    font-size: 3rem;
+    position: fixed;
+    top: 102px;
+    left: 100px;
+    color: #d7d5d9;
+    text-align: right;
+}
+
+.section3-greetingB {
+    font-size: 3rem;
+    position: fixed;
+    z-index: 3;
+    top: 145px;
+    left: 105px;
+    color: #292b2f;
+    text-align: right;
+}
+
+
+
+.resume-card {
+    width: 400px;
+    height: 260px;
+}
+
+.resume_title {
+    font-size: 2rem;
+    color: #d7d5d9;
+    margin: 15px 10px 15px 10px;
+    border-bottom: 3px solid #018185;
+}
+
+.resume-card ul{
+    list-style-type: none;
+}
+
+.resume-card li{
+    padding: 5px;;
+}
+
+.bigger {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+    .resume_title {
+        font-size: 1.5rem;
+    }
+   
+    .resume-card {
+        height: 320px;
+    }
+
+    .resume-card li{
+        padding: 2px;;
+    }
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    .resume_title {
+        font-size: 1rem;
+    }
+
+    .resume-card {
+        width: 340px;
+        font-size: .8rem;
+        height: 300px;
+    }
+
+    .section3-greeting {
+        font-size: 2rem;
+        top: 118px;
+        left: 50px;
+    }
+    .section3-greetingB {
+        font-size: 2rem;
+        top: 150px;
+        left: 50px;
+    }
+
+  }
+

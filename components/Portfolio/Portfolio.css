@@ -1,0 +1,245 @@
+.section2-greeting {
+    font-size: 3rem;
+    color: #d7d5d9;
+    position: absolute;
+    top: 157px;
+    left: 180px;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+.arrow {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #d7d5d9;
+    position: absolute;
+    top: 165px;
+    left: 660px;
+    z-index: 3;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+    
+}
+
+.portfolio-container{
+    font-family: 'Comfortaa', cursive;
+    padding: 0 0 0 0;
+}
+
+.portfolio-items-container {
+    width: 80%;
+    position: absolute;
+    margin: 0 0 0 0;
+    left: 10%;
+    right: 10%;
+    top: 200px;
+    border: 5px solid #40af93;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    color: #d7d5d9;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.portfolio-img {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 10px;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+.details-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.open-modal {
+    color: #40af93;
+}
+
+.open-modal:hover {
+    color: #d7d5d9;
+    cursor: pointer;
+}
+
+.portfolio_links a{
+    color: #40af93;
+    text-decoration-style: none;
+    
+}
+
+.portfolio_links a:visited {
+    color: #40af93;
+    text-decoration-style: none;
+}
+
+.portfolio_links a:hover {
+    color: #d7d5d9;
+    text-decoration-style: none;
+}
+
+.portfolio-details {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.app-name {
+    color: #40af93;
+    font-size: 1.5rem;
+}
+
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.tech-icon {
+    padding-right: 10px;
+}
+
+.screens-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 700px;
+}
+
+.desktop-screen {
+    width: 400px;
+    margin: 15px;
+}
+
+.mobile-screen {
+    width: 200px;
+}
+
+@media only screen and (max-width: 800px) {
+    .section2-greeting {
+        left: 100px;
+    }
+    .arrow {
+        left: 580px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+ 
+    .section2-greeting {
+        font-size: 1.8rem;
+        left: 50px;
+        top: 85px;
+    }
+    .arrow {
+        left: 330px;
+        top: 85px;
+    }
+    .portfolio-img {
+        max-width: 80px;
+        max-height: 100px;
+        padding: 5px;
+    }
+
+    .app-name {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .portfolio-details {
+        font-size: 1rem;
+        width: 210px;
+    }
+    .portfolio-items-container {
+        top: 110px;
+    }
+    .desktop-screen {
+        width: 300px;
+    }
+    .screens-wrapper{
+        width: 85%;
+    }
+
+}
+
+  @media only screen and (max-width: 450px) {
+ 
+    .portfolio-img {
+        max-width: 50px;
+        max-height: 50px;
+        padding-left: 20px;
+    }
+    .portfolio-details {
+        font-size: .8rem;
+        width: 210px;
+
+    }
+    
+  }
+
+  @media only screen and (max-width: 350px) {
+    .portfolio-img {
+        display: none;
+    }
+    .app-name {
+        font-size: .75rem;
+    }
+
+    .portfolio-details {
+        font-size: .73rem;
+        width: 240px;
+
+    }
+    .section2-greeting {
+        font-size: 1.5rem;
+        left: 50px;
+        top: 87px;
+    }
+    
+  }
+
+  @media only screen 
+  and (min-width : 768px) 
+  and (max-width : 1024px) 
+  and (orientation : landscape) { 
+
+    .section2-greeting {
+        font-size: 2rem;
+        left: 50px;
+        top: 100px;
+    }
+    .arrow {
+        left: 370px;
+        top: 100px;
+    }
+    .portfolio-img {
+        max-width: 100px;
+        max-height: 100px;
+        padding: 5px;
+    }
+
+    .app-name {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .portfolio-details {
+        font-size: 1rem;
+        width: 210px;
+    }
+    .portfolio-items-container {
+        top: 130px;
+    }
+  }

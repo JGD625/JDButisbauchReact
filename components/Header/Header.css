@@ -1,0 +1,70 @@
+header {
+  background: #d7d5d9;
+  position: fixed;
+  top:0px;
+  left:0px;
+  height: 50px;
+  width: 100%;
+  z-index: 10;
+}
+
+
+.jdbutisbauch {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    position: fixed;
+    left: 10px;
+    top: 8px;
+    background: linear-gradient(to right, #40af93 0%, #292b2f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+
+  .jdbutisbauch:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 45px;
+    background-color: rgba(215, 213, 217,0.6);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    cursor: pointer;
+  }
+
+  .jdbutisbauch:hover:after {
+    width: 800px;
+    background-color: rgba(215, 213, 217,0);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .jdbutisbauch {
+      font-size: 2.5rem;
+      position: fixed;
+      left: 10px;
+      top: 15px;
+    }
+
+  }
+
+  @media only screen and (max-width: 350px) {
+    .jdbutisbauch {
+      font-size: 2rem;
+      position: fixed;
+      left: 10px;
+      top: 22px;
+    }
+
+  }

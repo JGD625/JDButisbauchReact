@@ -1,0 +1,71 @@
+.section4-greeting {
+    font-size: 3rem;
+    color: #d7d5d9;
+    position: fixed;
+    top: 155px;
+    right: 15%;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+.contact-container {
+font-family: 'Comfortaa', cursive;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 200px;
+    left: 10%;
+    right: 10%;
+    border: 5px solid #40af93;
+    border-radius: 3px;
+    width: 80%;
+    min-height: 60%;
+}
+
+.contact-list a{
+ text-decoration: none;
+ color: #d7d5d9;
+ font-size: 3rem;
+}
+
+.contact-list a:visited {
+    color: #d7d5d9;
+   }
+
+   .contact-list a:hover {
+    color: #40af93;
+   }
+
+.contact-icon {
+    color: #40af93;
+    font-size: 5rem;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contact-icon {
+        color: #40af93;
+        font-size: 3rem;
+    }
+    .contact-list a {
+        font-size: 2rem;
+       }
+
+       .section4-greeting {
+        font-size: 2rem;
+        top: 135px;
+        left: 15%;
+    }
+
+}
+
